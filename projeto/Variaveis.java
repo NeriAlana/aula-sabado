@@ -10,5 +10,7 @@ public class Variaveis {
         System.out.println("Idadee: " + idade);
         System.out.println("Peso: " + peso);
         System.out.println("CPF: " + CPF);
+
+        
     }
 }
