@@ -7,9 +7,21 @@
 
 public class CalcularMedia {
     public static void main(String[] args) {
-        
-        
+       String aluno = "Alana"; 
+       double nota1 =  8.0;
+       double nota2 = 6.1;
+       double media = (nota1 + nota2)/2;
+       
+       System.out.printf(" O aluno %s, com média: %.2f está ", aluno, media );
 
+       if (media >= 7) {
+           System.out.println("Aprovado");
+       } else if (media < 7 && media == 5) {
+           System.out.println("Verificação Suplementar");  
+       } else {
+           System.out.println("Reprovado"); 
+       }
+        
 
     }
 }
