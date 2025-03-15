@@ -21,7 +21,6 @@ public class CalcularMedia {
        } else {
            System.out.println("Reprovado"); 
        }
-        
-
+    
     }
 }
